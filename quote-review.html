@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Review & Edit Quote</title>
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
+        <script data-search-pseudo-elements defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.24.1/feather.min.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="layoutDefault">
+            <div id="layoutDefault_content">
+                <main>
+                    <!-- Navbar-->
+                    <nav class="navbar navbar-marketing navbar-expand-lg bg-gradient-primary-to-secondary navbar-dark fixed-top">
+                        <div class="container px-5">
+                            <a class="navbar-brand text-white" href="index.html">CasaEnvios.com</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i data-feather="menu"></i></button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ms-auto me-lg-5">
+									 <li class="nav-item"><a class="nav-link" href="index.html">learn how to use CasaEnvios.com</a></li>
+									 <li class="nav-item"><a class="nav-link" href="index.html">Contact US</a></li>
+                                </ul>
+                                <a class="btn fw-500 ms-lg-4 btn-teal" href="https://chat.whatsapp.com/H1sxrFkoytJJ6lP2t8Biyi">
+                                    Join our Whatsapp Group
+                                    <i class="ms-2" data-feather="arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                    <section class="bg-light pt-15 pb-10">
+                        <div class="container px-5">
+                            <div class="row gx-5 justify-content-center">
+                                <div class="col-lg-8 col-xl-9">
+                                    <div class="d-flex align-items-center justify-content-between flex-column flex-md-row">
+                                        <h2 class="mb-0"> Qoute Confirmation  </h2>
+                                      
+									<div class="dropdown">
+											<button class="btn btn-primary dropdown-toggle" id="dropdownMenuButton" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action</button>
+											<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+												<a class="dropdown-item" href="consolidator-add.html">Download PDF</a>
+												<a class="dropdown-item" href="#!">Add to Clickup</a>
+												<a class="dropdown-item" href="#!">Whatsapp message</a>
+											</div>
+										</div>	
+										
+                                    </div>
+                                    <hr class="mb-4" />
+									<div>
+                        <!-- Invoice-->
+                        <div class="card invoice">
+                            <div class="card-header p-4 p-md-5 border-bottom-0 bg-gradient-primary-to-secondary text-white-50">
+                                <div class="row justify-content-between align-items-center">
+                                    <div class="col-12 col-lg-auto mb-5 mb-lg-0 text-center text-lg-start">
+                                        <!-- Invoice branding-->
+                                        <img class="invoice-brand-img rounded-circle mb-4" src="assets/img/demo/demo-logo.svg" alt="">
+                                        <div class="h2 text-white mb-0">Steve Hernandez</div>
+                                        Los Angeles	to Panama City, Panama
+                                    </div>
+                                    <div class="col-12 col-lg-auto text-center text-lg-end">
+                                        <!-- Invoice details-->
+                                        <div class="h3 text-white">Qoute</div>
+                                        #29301
+                                        <br>
+                                        January 1, 2021
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body  p-md-5">
+                                <!-- Invoice table-->
+                                <div>
+                                    <table class="table table-borderless mb-0">
+                                        <thead class="border-bottom">
+                                            <tr class="small text-uppercase text-muted">
+                                                <th scope="col">Description</th>
+                                                <th class="text-end" scope="col"></th>
+                                                <th class="text-end" scope="col">Unit</th>
+                                                <th class="text-end" scope="col">Amount</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+										 <tr class="border-bottom">
+                                                <td>
+                                                    <div class="fw-bold">Pickup Transportation</div>
+                                                    <div class="small text-muted d-none d-md-block">We work with a network of trucking companies that can provide pickup services from your location to the consolidation warehouse</div>
+																								
+													<button class="btn btn-primary btn-xs" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Edit</button>
+													<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+																<div class="modal-dialog modal-dialog-centered" role="document">
+																	<div class="modal-content">
+																		<div class="modal-header">
+																			<h5 class="modal-title" id="exampleModalCenterTitle">Transportation Cost</h5>
+																			<button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+																		</div>
+																		<div class="modal-body">
+																		 <div class="mb-3">
+																				<label class="small mb-1" for="inputOrgName">Transportation Rate</label>
+																				<input class="form-control" id="inputOrgName" type="text" >
+																			</div>
+																		</div>
+																		<div class="modal-footer"><button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save changes</button></div>
+																	</div>
+																</div>
+															</div>
+                                                </td>
+                                                <td class="text-end fw-bold"></td>
+                                                <td class="text-end fw-bold"> - </td>
+                                                <td class="text-end fw-bold"> - </td>
+																					
+                                            </tr>
+										
+                                            <!-- Invoice item 1-->
+                                            <tr class="border-bottom">
+                                                <td>
+                                                    <div class="fw-bold">Export & Freight</div>
+                                                    <div class="small text-muted d-none d-md-block">
+													<ul>
+													<li>Freight Rate @160.00 x  3.33 cubic meter = $532.8 </li> 
+													<li>Port Fee  @ 9.00 x  3.33 cubic meter = 29.97</li> 
+													<li>Document @ 50.00</li> 
+													<li>Bill of Lading @20.00</li> 
+													<li>Charge Fee % </li> 
+													</ul> 
+													This quote is based on the infomration proviced and only convers shiping cost. Goverment inspections, cost associated with importing is not cover in this cost</div>
+													<button class="btn btn-primary btn-xs" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalCenter2">Edit</button>
+													<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle2" aria-hidden="true">
+																<div class="modal-dialog modal-dialog-centered" role="document">
+																	<div class="modal-content">
+																		<div class="modal-header">
+																			<h5 class="modal-title" id="exampleModalCenterTitle2">Manual Update LCL Costs</h5>
+																			<button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+																		</div>
+																		<div class="modal-body">
+																		
+																			 <div class="mb-3">
+																				<label class="small mb-1" for="inputOrgName">Freight Rate</label>
+																				<input class="form-control" id="inputOrgName" type="text"  >
+																			</div>
+																			 <!-- Form Group (Field 1)-->
+																			 <div class="mb-3">
+																				<label class="small mb-1" for="inputOrgName">Port Fee </label>
+																				<input class="form-control" id="inputOrgName" type="text"  >
+																			</div>
+																			 <!-- Form Group (Field 1)-->
+																			 <div class="mb-3">
+																				<label class="small mb-1" for="inputOrgName">Document Fee</label>
+																				<input class="form-control" id="inputOrgName" type="text"  >
+																			</div>
+																			 <!-- Form Group (Field 1)-->
+																			 <div class="mb-3">
+																				<label class="small mb-1" for="inputOrgName">Bill of Lading Fee</label>
+																				<input class="form-control" id="inputOrgName" type="text"  >
+																			</div>
+																			 <!-- Form Group (Field 1)-->
+																			 <div class="mb-3">
+																				<label class="small mb-1" for="inputOrgName">Destination Bill of Lading Fee </label>
+																			   <input class="form-control" id="inputOrgName" type="text"  >
+																			</div>
+																			 <!-- Form Group (Field 1)-->
+																			 <div class="mb-3">
+																				<label class="small mb-1" for="inputOrgName">Charge Fee %</label>
+																			   <input class="form-control" id="inputOrgName" type="text"  >
+																			</div>
+																		</div>
+																		<div class="modal-footer"><button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save changes</button></div>
+																	</div>
+																</div>
+															</div>
+                                                </td>
+                                                <td class="text-end fw-bold"></td>
+                                                <td class="text-end fw-bold">1</td>
+                                                <td class="text-end fw-bold">$632.77</td>
+                                            </tr>
+                                            <!-- Invoice item 2-->
+                                            <tr class="border-bottom">
+                                                <td>
+                                                    <div class="fw-bold">E-commerce Logistic Services </div>
+                                                    <div class="small text-muted d-none d-md-block">A UI toolkit for creating marketing websites and landing pages</div>
+													<button class="btn btn-primary btn-xs" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Edit</button>
+													<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+																<div class="modal-dialog modal-dialog-centered" role="document">
+																	<div class="modal-content">
+																		<div class="modal-header">
+																			<h5 class="modal-title" id="exampleModalCenterTitle">Services</h5>
+																			<button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+																		</div>
+																		<div class="modal-body">
+																		 <div class="mb-3">
+																				<label class="small mb-1" for="inputOrgName">Logistic Services</label>
+																				<input class="form-control" id="inputOrgName" type="text" >
+																			</div>
+																		</div>
+																		<div class="modal-footer"><button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save changes</button></div>
+																	</div>
+																</div>
+															</div>
+                                                </td>
+                                                <td class="text-end fw-bold"></td>
+                                                <td class="text-end fw-bold">1</td>
+                                                <td class="text-end fw-bold">$250.00</td>
+                                            </tr>
+                                            <!-- Invoice item 3-->
+                                            <tr class="border-bottom">
+                                                <td>
+                                                    <div class="fw-bold">Custom Aduana Services</div>
+                                                    <div class="small text-muted d-none d-md-block">
+													<ul>
+													<li>Clasificar Producto (Duca & Poliza) (De 1 a 10 partida ) $100.00 </li> 
+													<li>Rojo Selective $85.00</li> 
+													<li>Vista Previa $85.00</li> 
+													<li>Permisos $50.00 a $100</li> 
+													</ul> 
+													A fully coded set of UI resources for creating a comprehensive web application</div>
+													  
+													<button class="btn btn-primary btn-xs" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Edit</button>
+													<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+																<div class="modal-dialog modal-dialog-centered" role="document">
+																	<div class="modal-content">
+																		<div class="modal-header">
+																			<h5 class="modal-title" id="exampleModalCenterTitle">Transportation Cost</h5>
+																			<button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+																		</div>
+																		<div class="modal-body">
+																		 <div class="mb-3">
+																				<label class="small mb-1" for="inputOrgName">Transportation Rate</label>
+																				<input class="form-control" id="inputOrgName" type="text" >
+																			</div>
+																		</div>
+																		<div class="modal-footer"><button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save changes</button></div>
+																	</div>
+																</div>
+															</div>
+                                                </td>
+                                                <td class="text-end fw-bold"></td>
+                                                <td class="text-end fw-bold">1</td>
+                                                <td class="text-end fw-bold">$100.00</td>
+                                            </tr>
+											
+											     <!-- Invoice item 4-->
+                                            <tr class="border-bottom">
+                                                <td>
+                                                    <div class="fw-bold">Delivery to Client</div>
+                                                    <div class="small text-muted d-none d-md-block">This quote is a delviery cost to get your merchandise from Aduana to your warehouse or location.</div>
+													<button class="btn btn-primary btn-xs" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Edit</button>
+													<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+																<div class="modal-dialog modal-dialog-centered" role="document">
+																	<div class="modal-content">
+																		<div class="modal-header">
+																			<h5 class="modal-title" id="exampleModalCenterTitle">Transportation Cost</h5>
+																			<button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+																		</div>
+																		<div class="modal-body">
+																		 <div class="mb-3">
+																				<label class="small mb-1" for="inputOrgName">Transportation Rate</label>
+																				<input class="form-control" id="inputOrgName" type="text" >
+																			</div>
+																		</div>
+																		<div class="modal-footer"><button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save changes</button></div>
+																	</div>
+																</div>
+															</div>
+                                                </td>
+                                                <td class="text-end fw-bold"></td>
+                                                <td class="text-end fw-bold"> - </td>
+                                                <td class="text-end fw-bold">$500.00</td>
+                                            </tr>
+											
+											
+                                            <!-- Invoice subtotal-->
+                                            <tr>
+                                                <td class="text-end pb-0" colspan="3"><div class="text-uppercase small fw-700 text-muted">Subtotal:</div></td>
+                                                <td class="text-end pb-0"><div class="h5 mb-0 fw-700">$,1925.00</div></td>
+                                            </tr>
+                                            <!-- Invoice tax column-->
+                                            <tr>
+                                                <td class="text-end pb-0" colspan="3"><div class="text-uppercase small fw-700 text-muted">Tax (7%):</div></td>
+                                                <td class="text-end pb-0"><div class="h5 mb-0 fw-700">$134.75</div></td>
+                                            </tr>
+                                            <!-- Invoice total-->
+                                            <tr>
+                                                <td class="text-end pb-0" colspan="3"><div class="text-uppercase small fw-700 text-muted">Total Amount Due:</div></td>
+                                                <td class="text-end pb-0"><div class="h5 mb-0 fw-700 text-green">$2059.75</div></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 p-lg-5 border-top-0">
+							<div class="row">
+								 <div class="col-lg-6">
+											<!-- Invoice - additional notes-->
+											<div class="small text-muted text-uppercase fw-700 mb-2">Shipment Information</div>
+										
+											 <div class="small"> Pallet 1: 48 x 40 x 60 =  1.85 cubic meter | 1800 LB </div> 
+											 <div class="small">Pallet 1: 48 x 40 x 48 =  1.48 cubic meter | 1400 LB </div> <br/> 
+										
+											<div class="small">Total Cubic = 3.33 <br/>
+											Total Weight =  3,200LB / 1,451KG</div><br/>
+											
+											<div class="small"><b>Product Type:</b> Home Products, Kitchen, Stove</div> 
+								</div> 
+								 <div class="col-lg-6">
+											<!-- Invoice - additional notes-->
+											<div class="small text-muted text-uppercase fw-700 mb-2">Confirmation & Payment</div>
+										
+											 <div class="small"> This is only a quote. Consolidatoin warehouse will measure and weight shipment and we'll provide you a final invoice.</div><br/> 
+											 <div class="small">This quote is only for shipping and customs services. You are responsible for taxes, and inspectons cost if goverment requires it.</div> 
+										
+								</div> 
+							</div> 
+							<hr>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <!-- Invoice - sent to info-->
+                                         <div class="small text-muted text-uppercase fw-700 mb-2">Pallet Requirements & Info</div>
+                                        <div class="small mb-0">El Salvador require "Heat Treated Pallet".</div>
+										<br/>
+											<div class="small"> sin productos peligrosos ni químicos. no esta permitido</div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <!-- Invoice - additional notes-->
+                                        <div class="small text-muted text-uppercase fw-700 mb-2">Consolidation Warehouse</div>
+                                        <div class="small mb-0">PLUSCARGO USA <br/> 
+													19701 S VERMONT AVE<br/>
+													TORRANCE, CA 90502
+										</div>
+											<div class="small mb-0">You need a booking number before delivery. Warehous will not accept your merchandise.</div>		
+													
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+									
+								
+                                    
+									
+									
+                               
+                                </div>
+                            </div>
+                        </div>
+                        <div class="svg-border-rounded text-dark">
+                            <!-- Rounded SVG Border-->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none" fill="currentColor"><path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path></svg>
+                        </div>
+                    </section>
+                </main>
+            </div>
+            <div id="layoutDefault_footer">
+                <footer class="footer pt-10 pb-5 mt-auto bg-dark footer-dark">
+                    <div class="container px-5">
+                        <div class="row gx-5">
+                            <div class="col-lg-3">
+                                <div class="footer-brand">SB UI Kit Pro</div>
+                                <div class="mb-3">Design made easy</div>
+                                <div class="icon-list-social mb-5">
+                                    <a class="icon-list-social-link" href="#!"><i class="fab fa-instagram"></i></a>
+                                    <a class="icon-list-social-link" href="#!"><i class="fab fa-facebook"></i></a>
+                                    <a class="icon-list-social-link" href="#!"><i class="fab fa-github"></i></a>
+                                    <a class="icon-list-social-link" href="#!"><i class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="row gx-5">
+                                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                                        <div class="text-uppercase-expanded text-xs mb-4">Product</div>
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="mb-2"><a href="#!">Landing</a></li>
+                                            <li class="mb-2"><a href="#!">Pages</a></li>
+                                            <li class="mb-2"><a href="#!">Sections</a></li>
+                                            <li class="mb-2"><a href="#!">Documentation</a></li>
+                                            <li><a href="#!">Changelog</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                                        <div class="text-uppercase-expanded text-xs mb-4">Technical</div>
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="mb-2"><a href="#!">Documentation</a></li>
+                                            <li class="mb-2"><a href="#!">Changelog</a></li>
+                                            <li class="mb-2"><a href="#!">Theme Customizer</a></li>
+                                            <li><a href="#!">UI Kit</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+                                        <div class="text-uppercase-expanded text-xs mb-4">Includes</div>
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="mb-2"><a href="#!">Utilities</a></li>
+                                            <li class="mb-2"><a href="#!">Components</a></li>
+                                            <li class="mb-2"><a href="#!">Layouts</a></li>
+                                            <li class="mb-2"><a href="#!">Code Samples</a></li>
+                                            <li class="mb-2"><a href="#!">Products</a></li>
+                                            <li class="mb-2"><a href="#!">Affiliates</a></li>
+                                            <li><a href="#!">Updates</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="text-uppercase-expanded text-xs mb-4">Legal</div>
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="mb-2"><a href="#!">Privacy Policy</a></li>
+                                            <li class="mb-2"><a href="#!">Terms and Conditions</a></li>
+                                            <li><a href="#!">License</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="my-5" />
+                        <div class="row gx-5 align-items-center">
+                            <div class="col-md-6 small">Copyright &copy; Your Website 2021</div>
+                            <div class="col-md-6 text-md-end small">
+                                <a href="#!">Privacy Policy</a>
+                                &middot;
+                                <a href="#!">Terms &amp; Conditions</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                disable: 'mobile',
+                duration: 600,
+                once: true,
+            });
+        </script>
+    </body>
+</html>
